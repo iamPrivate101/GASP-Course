@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 171, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 150, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 104, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#page4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 47, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#page5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 47, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+}
+
+h1{
+    font-size: 50px;
+    background-color: red;
+    padding: 20px;
+    position: relative;
+}
+
+h2{
+    font-size: 50px;
+    background-color: rgb(255, 0, 179);
+    padding: 20px;
+    position: relative;
+}
+
+
+/* //implementation.html css */
+#page6 {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+#page7 {
+    width: 100%;
+    height: 100%;
+    background-color: #58c7ab;
+    padding:5vw 0;
+    /* transform: translate(-150%); */
+}
+
+#page8 {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+#page7 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+}
