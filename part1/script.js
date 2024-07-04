@@ -25,7 +25,7 @@ gsap.from("h1", {
   duration: 3,
   delay: 1,
   y: 30,
-  stagger: 0.3, //stagger will run the tag one by one
+  stagger: 1, //stagger will run the tag one by one
 });
 
 
