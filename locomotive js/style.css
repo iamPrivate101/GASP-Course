@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(93, 163, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 106, 136);
+}
+
+#page2 img{
+    height: 580px;
+    width: 400px;
+    object-fit: cover;
+    object-position: bottom;
+
+}
